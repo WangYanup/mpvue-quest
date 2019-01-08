@@ -1,0 +1,5 @@
+<template name="f23b2168">
+  <view class="_div data-v-ff915de0 guide-map">
+    <map-route wx:if="{{routeInfo}}" route-info="{{routeInfo}}" class="_map-route data-v-ff915de0"></map-route>
+  </view>
+</template>

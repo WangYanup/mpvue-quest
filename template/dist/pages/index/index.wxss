@@ -1,0 +1,10 @@
+@import "../../common/vendor.wxss";
+
+@keyframes fadeIn-data-v-1dc42c58 {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
