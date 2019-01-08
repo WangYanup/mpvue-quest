@@ -1,5 +1,0 @@
-@import "../../common/vendor.wxss";
-
-.guide-map.data-v-ff915de0 {
-  height: 100vh;
-}
