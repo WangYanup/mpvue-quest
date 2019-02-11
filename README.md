@@ -120,6 +120,9 @@ mpvue, sass, mpvue-entry, mpvue-router-patch, flyio.js, vuex, mpvue-weui, vuex-p
 --- 文件名：wx.utils.js ---
 描述：对小程序api进行封装，统一管理
 *main.js 使用此插件*
+
+--- 文件名：wx_websocket_module.js ---
+描述：小程序的websocket封装，添加心跳包发送和中断检测。需要本地检测可以使用 webscoketd(http://websocketd.com)。
 ```
 
 ### 文件夹：src/plugs
