@@ -18,12 +18,7 @@ module.exports = {
   // 如果要自定义生成的 dist 目录里面的文件路径，
   // 可以将 entry 写成 {'toPath': 'fromPath'} 的形式，
   // toPath 为相对于 dist 的路径, 例：index/demo，则生成的文件地址为 dist/index/demo.js
-  entry: MpvueEntry.getEntry({
-    // 页面配置文件
-    pages: 'src/pages.js',
-    // 主入口文件，作为模板
-    main: 'src/main.js'
-  }),
+  entry: MpvueEntry.getEntry('src/pages.js'),
   target: require('mpvue-webpack-target'),
   output: {
     path: config.build.assetsRoot,
@@ -118,14 +113,6 @@ module.exports = {
       {
         from: path.resolve(__dirname, '../src/assets/product-img/*.png'),
         to: path.resolve(__dirname, '../dist/img'),
-        flatten: true
-      }
-    ]),
-    // 复制腾讯地图插件json设置
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, '../src/pages/guideMap/index.json'),
-        to: path.resolve(__dirname, '../dist/pages/guideMap'),
         flatten: true
       }
     ])

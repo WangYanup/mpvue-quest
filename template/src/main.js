@@ -5,13 +5,13 @@ import Network from './network/index';
 import WxNetwork from './network/network.wx';
 import MpvueRouterPatch from 'mpvue-router-patch';
 
-import Storage from '@/utils/wx.storage';
-import StorageTypeName from '@/utils/storage.typename';
-import WxUtils from '@/utils/wx.utils';
-import '@/utils/wx.onlanch';
+import Storage from './utils/wx.storage';
+import StorageTypeName from './utils/storage.typename';
+import WxUtils from './utils/wx.utils';
+import './utils/wx.onlanch';
 
-import '@/assets/style/weui.scss';
-import '@/assets/style/base.scss';
+import './assets/style/weui.scss';
+import './assets/style/base.scss';
 
 import Hack from './plugs/hack';
 
