@@ -1,5 +1,5 @@
 # mpvue-quest
-> 可以立即使用的mpvue开发配置
+> 可以立即使用的mpvue开发微信小程序配置
 
 ## Build Setup
 ``` bash
@@ -24,6 +24,8 @@ mpvue, sass, mpvue-entry, mpvue-router-patch, flyio.js, vuex, mpvue-weui, vuex-p
 [mpvue-wxParse 格式化html/markdown](https://github.com/htzhanglong/mpvue-wxParse)
 
 [微信小程序文档](https://developers.weixin.qq.com/miniprogram/dev/)
+
+[mpvue-entry](https://github.com/F-loat/mpvue-entry)
 
 ## 已支持的功能和组件
 ``` bash
@@ -120,9 +122,6 @@ mpvue, sass, mpvue-entry, mpvue-router-patch, flyio.js, vuex, mpvue-weui, vuex-p
 --- 文件名：wx.utils.js ---
 描述：对小程序api进行封装，统一管理
 *main.js 使用此插件*
-
---- 文件名：wx_websocket_module.js ---
-描述：小程序的websocket封装，添加心跳包发送和中断检测。需要本地检测可以使用 webscoketd(http://websocketd.com)。
 ```
 
 ### 文件夹：src/plugs
@@ -148,14 +147,10 @@ vuex 有关内容
 ```
 ### 其他文件说明
 ```bash
---- 文件名：app.json ---
-描述：小程序设置文件
-
 --- 文件名：main.js ---
 描述：初始化vue对象等有关操作
 
 --- 文件名：pages.js ---
-描述：设置文件目录
+描述：设置微信小程序配置，详细用法见mpvue-entry（https://github.com/F-loat/mpvue-entry）
 
-**增加新页面时需要同时在app.json和pages.js文件增加路径**
 ```
