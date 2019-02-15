@@ -1,5 +1,5 @@
 # mpvue-quest
-> 可以立即使用的mpvue开发配置
+> 可以立即使用的mpvue开发微信小程序配置
 
 ## Build Setup
 ``` bash
