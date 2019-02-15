@@ -40,4 +40,4 @@ module.exports = {
       'selectedIconPath': 'img/ic_me_on_tab.png'
     }]
   }
-}
+};

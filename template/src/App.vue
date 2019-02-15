@@ -5,7 +5,9 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import '@/assets/style/variables.scss';
+
 .container {
   height: 100%;
   display: flex;

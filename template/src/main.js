@@ -10,6 +10,8 @@ import StorageTypeName from './utils/storage.typename';
 import WxUtils from './utils/wx.utils';
 import './utils/wx.onlanch';
 
+import './test';
+
 import './assets/style/weui.scss';
 import './assets/style/base.scss';
 

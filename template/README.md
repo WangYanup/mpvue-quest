@@ -25,6 +25,8 @@ mpvue, sass, mpvue-entry, mpvue-router-patch, flyio.js, vuex, mpvue-weui, vuex-p
 
 [微信小程序文档](https://developers.weixin.qq.com/miniprogram/dev/)
 
+[mpvue-entry](https://github.com/F-loat/mpvue-entry)
+
 ## 已支持的功能和组件
 ``` bash
 # scss
@@ -145,14 +147,10 @@ vuex 有关内容
 ```
 ### 其他文件说明
 ```bash
---- 文件名：app.json ---
-描述：小程序设置文件
-
 --- 文件名：main.js ---
 描述：初始化vue对象等有关操作
 
 --- 文件名：pages.js ---
-描述：设置文件目录
+描述：设置微信小程序配置，详细用法见mpvue-entry（https://github.com/F-loat/mpvue-entry）
 
-**增加新页面时需要同时在app.json和pages.js文件增加路径**
 ```
